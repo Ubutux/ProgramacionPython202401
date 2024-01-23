@@ -1,13 +1,7 @@
-semaforo = input("Ingrese el estado del semáforo (verde/rojo/amarillo): ")
+import math
+r =7
+area = math.pi*r**2
+print (area)
 
-# Convertimos el estado del semáforo a minúsculas
-semaforo = semaforo.lower()
 
-# Si el semáforo está en verde, cruzamos la calle
-if semaforo == "verde":
-    print("Puede cruzar la calle")
-
-# Si el semáforo está en rojo o amarillo, no cruzamos la calle
-else:
-    print("No puede cruzar la calle")
 
